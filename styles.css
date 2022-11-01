@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexContainer {
+  display: flex;
+}
+
+figure {
+  max-width: 40%;
+  height: 100%;
+  display: flex;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+figure {
+  position: relative;
+  margin-inline: 0px;
+  margin-block: 0px;
+}
+figure figcaption {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding: 15px;
+  text-align: center;
+}
+
+figcaption a {
+  color: white;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: grey;
+}
