@@ -1,17 +1,10 @@
-html,
-body {
-  margin: 0;
-  height: 100%;
-}
-
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.flexContainer {
-  display: flex;
+  margin: 0px;
+  height: 100vh;
+  background-color: black;
 }
 
 figure {
@@ -35,7 +28,6 @@ figure figcaption {
   position: absolute;
   bottom: 0;
   padding: 15px;
-  text-align: center;
 }
 
 figcaption a {
@@ -43,8 +35,31 @@ figcaption a {
 }
 
 .textContent {
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: grey;
+}
+
+.logo {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.484);
+  font-family: "Skranji", cursive;
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  top: 25%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 25%;
 }
