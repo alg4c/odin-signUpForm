@@ -28,6 +28,7 @@ figure figcaption {
   position: absolute;
   bottom: 0;
   padding: 15px;
+  left: 15%;
 }
 
 figcaption a {
