@@ -34,14 +34,38 @@
         <p class="announcement">
           This is not a real service! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit ut? 
         </p>
+
         <form action="" method="post">
-          <fieldset class="contact">
-            Contact Information:
-            <label for="first-name">First Name</label>
-            <input id="first-name" type="text" required />
-            <label for="last-name">Last Name</label>
-            <input id="last-name" type="text" required />
-          </fieldset>
+            Please enter your contact information below so we can reach out  &#128512
+            <div class="formGrid">
+              <div class="fname">
+                <label for="first-name">First Name:</label>
+                <input id="first-name" type="text" required />
+              </div>
+              <div class="lname">
+                <label for="last-name">Last Name:</label>
+                <input id="last-name" type="text" required />
+              </div>
+              <div class="email">
+                <label for="email">Email:</label>
+                <input id="email" type="email" placeholder="example@domain.com" required />
+              </div>
+              <div class="pnumber">
+                <label for="pnumber">Phone Number:</label>
+                <input id="pnumber" type="tel" placeholder="xxx-xxx-xxxx">
+              </div>
+              <div class="pass">
+                <label for="pass">Password:</label>
+                <input id="pass" type="password" required>
+                <p class="error">Passwords do not match</p>
+              </div>
+              <div class="confPass">
+                <label for="confPass">Password:</label>
+                <input id="confPass" type="password" required>
+              </div>
+            </div>
+            
+           
         </form>
         <p class="login">Already a member? Login <a href="#login">Here</a></p>
       </div>
